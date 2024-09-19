@@ -68,7 +68,9 @@ Edit the config.json file in the root directory to add your personal information
 }
 ```
 
-The icons (collections and references) refer to the website https://icones.js.org/
+The icons (collections and references) refer to the website https://icones.js.org/.
+
+To allow displaying avatar in the .vcf file, convert your profile image in base64 (by using this website https://www.base64-image.de for example) and add it in the json file.
 
 ## Setup
 
