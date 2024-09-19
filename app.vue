@@ -1,8 +1,9 @@
 <template>
   <div
-    id="root"
+    id="background"
     :style="`background:${colors.backgroundTop};background:linear-gradient(${colors.backgroundTop}, ${colors.backgroundBottom});color:${colors.primary};`"
-  >
+  ></div>
+  <div id="root">
     <div id="wrapper">
       <div id="container">
         <HeaderSection />
@@ -12,13 +13,13 @@
         <JobsSection />
         <CertsSection />
         <ButtonDownload mode="normal" />
-        <ButtonDownload
-          mode="fixed"
-          :style="`background:'${colors.backgroundTop}';color:${colors.primary};`"
-        />
         <LineBottom />
       </div>
     </div>
+    <ButtonDownload
+      mode="fixed"
+      :style="`background:'${colors.backgroundTop}';color:${colors.primary};`"
+    />
   </div>
 </template>
 
