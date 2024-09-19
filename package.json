@@ -10,8 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/icon": "^1.5.1",
     "nuxt": "^3.13.0",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "vue3-simple-icons": "^13.2.0"
+  },
+  "devDependencies": {
+    "@iconify-json/uil": "^1.2.0"
   }
 }
