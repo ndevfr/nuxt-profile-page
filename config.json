@@ -31,7 +31,8 @@
     {
       "title": "CV",
       "icon": "custom-icons:cv",
-      "url": "https://ndev.fr/files/cv.pdf"
+      "url": "https://ndev.fr/fichiers/cv.pdf",
+      "nofollow": true
     }
   ],
   "links": [

@@ -4,8 +4,8 @@
       :href="url"
       target="_blank"
       :title="title"
-      rel="noopener noreferrer"
       :style="'color:' + colors.accent + ';border-color:' + colors.accent + ';'"
+      :rel="nofollow ? 'noopener noreferrer nofollow' : 'noopener noreferrer'"
     >
       <Icon :name="icon" size="2.7rem !important" class="social-icon" />
     </a>
@@ -28,6 +28,10 @@ const props = defineProps({
   url: {
     type: String,
     required: true,
+  },
+  nofollow: {
+    type: Boolean,
+    default: false,
   },
 });
 </script>
