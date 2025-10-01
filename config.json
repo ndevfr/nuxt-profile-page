@@ -37,10 +37,10 @@
   ],
   "links": [
     {
-      "label": "portfolio",
-      "title": "Portfolio",
+      "label": "company",
+      "title": "Auto-entreprise",
       "icon": "uil:link",
-      "url": "https://ndev.fr"
+      "url": "https://pressakey.fr"
     },
     {
       "label": "projet 1",
@@ -58,8 +58,8 @@
   "jobs": [
     {
       "label": "Emploi",
-      "company": "Éducation Nationale",
-      "position": "Professeur de mathématiques"
+      "company": "Freelance",
+      "position": "Développeur fullstack"
     }
   ],
   "certs": [
